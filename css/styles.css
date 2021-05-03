@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* Root Colors */
+:root{
+   --phiolet-blue: #717CFF;
+   --text-color: #2F2F2F;
+}
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+/* Container */
+.container {
+    max-width: 1180px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+    font-size: 22px;
+}
+.nav-container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 164px;
+}
+.site-nav__list {
+    display: flex;
+    list-style-type: none;
+}
+.site-nav__item {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.site-nav__item:first-child {
+    margin-left: 100px;
+}
+.site-nav__link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #373737;
+    transition: 0.2s ease;
+}
+.site-nav__link:hover {
+    color: var(--phiolet-blue);
+}
+.apply-btn {
+    border: 2px solid #717CFF;
+    border-radius: 11px;
+    padding: 10px 33px 10px 33px;
+    transition: 0.2s ease;
+}
+.apply-btn:hover {
+    border: 2px solid #fff;
+    background-color: var(--phiolet-blue);
+    color: #fff;
+}
+/* Hero */
+.hero {
+    position: relative;
+}
+.hero::before {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    content: "";
+    width: 600px;
+    height: 655px;
+    background-image: url(../images/student-woman.png);
+    background-repeat: no-repeat;
+    
+}
+.hero_heading {
+    width: 632px;
+}
+.hero_heading span {
+    color: var(--phiolet-blue);
+}
+.hero__text {
+    margin-bottom: 42px;
+    width: 632px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 38px;
+    color: #7D7D7D;
+}
+.hero__btn {
+    margin-bottom: 100px;
+    background-color: var(--phiolet-blue);
+    position: relative;
+    border-radius: 11px;
+    padding: 12px 90px 12px 34px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    color: #fff;
+    transition: 0.2s ease;
+}
+.hero__btn:hover {
+    background-color: #fff;
+    color: var(--phiolet-blue);
+}
+.hero__btn::before {
+    position: absolute;
+    top: 15px;
+    right: 37px;
+    content: "";
+    width: 24px;
+    height: 22px;
+    background-image: url(../images/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero_social-media {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
