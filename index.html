@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Name</title>
+    <title>Executed.uz | Study abroad</title>
     <!-- CSS LINKS  -->
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <!--Slick  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+    
 </head>
 <body>
     <header class="header">
@@ -29,6 +35,7 @@
         </div>
     </header>
     <main class="main">
+        <!-- Hero -->
         <section class="hero">
             <div class="container">
                 <h1 class="hero_heading">We Help to <span>Build</span><br>
@@ -45,8 +52,92 @@
                 </ul>
             </div>
         </section>
-    </main>
 
-    <script src="js/scripts.js"></script>
+        <!-- Featured Universities Section -->
+        <section class="featured-universities">
+            <div class="container">
+                <h1 class="featured-universities__title">Featured Universities</h1>
+                <div class="universities__list">
+                    <div class="featured-universities__slide"><img class="featured-universities__img" src="./images/macquarie-university.png" alt="macquarie university" width="225" height="67"></div>
+                    <div class="featured-universities__slide"><img class="featured-universities__img" src="./images/charles-sturt-university.png" alt="charles sturt university" width="250" height="64"></div>
+                    <div class="featured-universities__slide"><img class="featured-universities__img" src="./images/the-university-of-newcastle.png" alt="the-university of newcastl" width="224" height="79"></div>
+                    <div class="featured-universities__slide"><img class="featured-universities__img" src="./images/latrobe-university.png" alt="latrobe university" width="275" height="62"></div>
+                    <div class="featured-universities__slide"><img class="featured-universities__img" src="./images/macquarie-university.png" alt="macquarie university" width="225" height="67"></div>
+                    <div class="featured-universities__slide"><img class="featured-universities__img" src="./images/charles-sturt-university.png" alt="charles sturt university" width="250" height="64"></div>
+                    <div class="featured-universities__slide"><img class="featured-universities__img" src="./images/the-university-of-newcastle.png" alt="the-university of newcastl" width="224" height="79"></div>
+                    <div class="featured-universities__slide"><img class="featured-universities__img" src="./images/latrobe-university.png" alt="latrobe university" width="275" height="62"></div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- Services Section -->
+        <section class="services">
+            <div class="container services-container">
+                <h1 class="services__title">Our Services</h1>
+                <p class="services__text">Executive Trade International is an University Application Centre, guiding Bangladeshi students to Australian, British, Canadian and Irish universities!</p>
+                    <ul class="services-cards__list">
+                        <li class="services-card__item career">
+                            <h3 class="services-card__title">Career Counselling</h3>
+                            <p class="services-card__text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum </p>
+                            <a class="services-card__link" href="#">Lear more</a>
+                        </li>
+                        <li class="services-card__item university">
+                            <h3 class="services-card__title">University Admissions</h3>
+                            <p class="services-card__text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus.</p>
+                            <a class="services-card__link" href="#">Lear more</a>
+                        </li>
+                        <li class="services-card__item visa">
+                            <h3 class="services-card__title">Visa Consultancy</h3>
+                            <p class="services-card__text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut.  dicta accusantium fugiat.</p>
+                            <a class="services-card__link" href="#">Lear more</a>
+                        </li>
+                        <li class="services-card__item accomadation">
+                            <h3 class="services-card__title">Accommodation</h3>
+                            <p class="services-card__text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis  dicta accusantium fugiat.</p>
+                            <a class="services-card__link" href="#">Lear more</a>
+                        </li>
+                        <li class="services-card__item pre-departure">
+                            <h3 class="services-card__title">Pre-Departure Briefing</h3>
+                            <p class="services-card__text">Maiores voluptas laboriosam non dolorum perferendis fuga repellat aut. Blanditiis quos in minus. Voluptatum </p>
+                            <a class="services-card__link" href="#">Lear more</a>
+                        </li>
+                    </ul>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class="news">
+            <div class="container">
+                <h1 class="news__heading">News</h1>
+                <p class="news__text">Sunt autem nusquam hoc epicurus in gravissimo bello 
+                animadversionis metu degendae praesidia firmissima. Torquatos nostros? quos tu paulo 
+                ante cum teneam sententiam</p>
+
+                <ul class="news-cards__list">
+                    <li class="news-card__item water-item">
+                        <img src="./images/art-left.png" alt="art" class="news-card__img" width="344" height="224">
+                        <time class="news-card__time">17 Apr 2020</time>
+                        <h4 class="news-card__title"><a href="#">Come On In. The Water’s Fine (Mostly).</a></h4>
+                    </li>
+                    <li class="news-card__item trump-item">
+                        <img src="./images/art-woman-center.png" alt="art" class="news-card__img" width="344" height="224">
+                        <time class="news-card__time">17 Apr 2020</time>
+                        <h4 class="news-card__title"><a href="#">Trump Lays Plans to Reverse Obama’s Climate Change</a></h4>
+                    </li>
+                    <li class="news-card__item regrow-item">
+                        <img src="./images/art-right.png" alt="art" class="news-card__img" width="344" height="224">
+                        <time class="news-card__time">17 Apr 2020</time>
+                        <h4 class="news-card__title"><a href="#">How a Little Bit of Hydra Regrows a Whole Animal</a></h4>
+                    </li>
+                </ul>
+                
+                <a class="join-here__btn" href="#">Join Here</a>   
+            
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    <script src="./js/scripts.js"></script>
 </body>
 </html>
